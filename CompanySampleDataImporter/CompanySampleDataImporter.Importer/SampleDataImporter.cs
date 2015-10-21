@@ -33,10 +33,12 @@
                 .ToList()
                 .ForEach(i =>
                 {
-                    this.textWriter.WriteLine(i.Message);
+                    this.textWriter.Write(i.Message);
 
                     var db = new CompanyEntities();
                     i.Get(db, this.textWriter);
+
+                    textWriter.WriteLine();
                 });
         }
      }
