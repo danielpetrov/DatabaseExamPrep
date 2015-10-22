@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38F734A2-D4CD-401A-8A0F-05D3807F745A}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{CFB584EF-11D3-4C5D-9473-D7A46FC083FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StartUpProject</RootNamespace>
-    <AssemblyName>StartUpProject</AssemblyName>
+    <RootNamespace>CarsSystem.Models</RootNamespace>
+    <AssemblyName>CarsSystem.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -34,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,20 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cars.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Dealer.cs" />
+    <Compile Include="Manifacturer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CompanySampleDataImporter.Data\CompanySampleDataImporter.Data.csproj">
-      <Project>{4575587c-cb84-464c-a2da-bee48f476997}</Project>
-      <Name>CompanySampleDataImporter.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CompanySampleDataImporter.Importer\CompanySampleDataImporter.Importer.csproj">
-      <Project>{665d4277-e124-4d14-9b90-a7555eec824b}</Project>
-      <Name>CompanySampleDataImporter.Importer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
