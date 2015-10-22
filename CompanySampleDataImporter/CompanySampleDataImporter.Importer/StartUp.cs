@@ -6,7 +6,6 @@
     {
         public static void Main()
         {
-            RandomGenerator.GetRandomDate();
             SampleDataImporter.Create(Console.Out).Import();
         }
     }

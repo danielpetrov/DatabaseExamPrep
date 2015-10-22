@@ -55,6 +55,7 @@
     <Compile Include="Importers\DepartmentsImporter.cs" />
     <Compile Include="Importers\EmployeesImporter.cs" />
     <Compile Include="Importers\IImporter.cs" />
+    <Compile Include="Importers\ManagersImporter.cs" />
     <Compile Include="RandomGenerator.cs" />
     <Compile Include="SampleDataImporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

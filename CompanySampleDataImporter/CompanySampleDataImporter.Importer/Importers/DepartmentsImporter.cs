@@ -7,6 +7,7 @@
     public class DepartmentsImporter : IImporter
     {
         private const string ImportingMessageString = "Importing Departments";
+
         private const int NumberOfDepartments = 100;
 
         public Action<CompanyEntities, TextWriter> Get
@@ -53,7 +54,7 @@
         {
             get
             {
-                return 2;
+                return 1;
             }
         }
     }
