@@ -1,0 +1,10 @@
+2.	Get all departments and how many employees there are in each one. Sort the result by the number of employees in descending order.
+
+
+SELECT  Count(d.Name) AS [Employees in each dep], d.Name
+      
+FROM [Company].[dbo].[Employees] e
+INNER JOIN [Company].[dbo].[Department] d
+ON e.DepartmentId = d.Id
+GROUP BY d.Name
+ORDER BY [Employees in each dep] DESC

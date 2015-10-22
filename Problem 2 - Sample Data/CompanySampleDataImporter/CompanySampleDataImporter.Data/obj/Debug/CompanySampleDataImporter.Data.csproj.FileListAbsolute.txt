@@ -1,0 +1,10 @@
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\CompanySampleDataImporter.Data.dll.config
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\CompanySampleDataImporter.Data.dll
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\CompanySampleDataImporter.Data.pdb
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\EntityFramework.dll
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\EntityFramework.xml
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\obj\Debug\CompanySampleDataImporter.Data.csprojResolveAssemblyReference.cache
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\obj\Debug\CompanySampleDataImporter.Data.dll
+C:\Users\daniel\Desktop\DatabaseExamPreparation\DatabaseExamPrep\CompanySampleDataImporter\CompanySampleDataImporter.Data\obj\Debug\CompanySampleDataImporter.Data.pdb
