@@ -8,7 +8,7 @@
     {
         private const string ImportingMessageString = "Importing Departments";
 
-        private const int NumberOfDepartments = 10;
+        private const int NumberOfDepartments = 100;
 
         public Action<CompanyEntities, TextWriter> Get
         {

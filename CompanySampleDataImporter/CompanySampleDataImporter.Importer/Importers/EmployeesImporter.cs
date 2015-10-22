@@ -10,7 +10,7 @@
     {
         private const string ImportingMessageString = "Importing Employees";
 
-        private const int NumberOfEmployees = 500; // 5000
+        private const int NumberOfEmployees = 5000;
 
         public Action<CompanyEntities, TextWriter> Get
         {

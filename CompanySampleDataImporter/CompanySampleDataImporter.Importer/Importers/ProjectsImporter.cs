@@ -9,7 +9,7 @@
     {
         private const string ImportingMessageString = "Importing Projects";
 
-        private const int NumberOfProjects = 100;//1000
+        private const int NumberOfProjects = 1000;
 
         public Action<CompanyEntities, TextWriter> Get
         {
@@ -52,6 +52,7 @@
                                 StartDate = startDate,
                                 EndDate = endDate
                             });
+
                             currentEmployeeIndex++;
                         }
 
