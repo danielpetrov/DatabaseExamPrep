@@ -8,7 +8,7 @@
         private const string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstvuwxyz";
 
         private static Random random = new Random();
-        
+
         public static int GetRandomNumber(int min = 0, int max = int.MaxValue / 2)
         {
             return random.Next(min, max + 1);
@@ -35,11 +35,17 @@
 
             var seconds = GetRandomNumber(minDate.Second, maxDate.Second);
             var minutes = GetRandomNumber(minDate.Minute, maxDate.Minute);
+            var hours = GetRandomNumber(minDate.Hour, maxDate.Hour);
             var days = GetRandomNumber(minDate.Day, maxDate.Day);
             var months = GetRandomNumber(minDate.Month, maxDate.Month);
             var years = GetRandomNumber(minDate.Year, maxDate.Year);
 
-            return new DateTime();
+            if (days > 28)
+            {
+                days = 28;
+            }
+
+            return new DateTime(years, months, days, hours, minutes, seconds);
         }
     }
 }
